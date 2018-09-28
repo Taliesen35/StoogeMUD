@@ -1,0 +1,10 @@
+C:\Users\Jesse\Documents\Visual Studio 2015\Projects\Stooge\WorldGenerator\bin\Debug\WorldGenerator.exe.config
+C:\Users\Jesse\Documents\Visual Studio 2015\Projects\Stooge\WorldGenerator\bin\Debug\WorldGenerator.exe
+C:\Users\Jesse\Documents\Visual Studio 2015\Projects\Stooge\WorldGenerator\bin\Debug\WorldGenerator.pdb
+C:\Users\Jesse\Documents\Visual Studio 2015\Projects\Stooge\WorldGenerator\bin\Debug\StoogeWorld.dll
+C:\Users\Jesse\Documents\Visual Studio 2015\Projects\Stooge\WorldGenerator\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Jesse\Documents\Visual Studio 2015\Projects\Stooge\WorldGenerator\bin\Debug\StoogeWorld.pdb
+C:\Users\Jesse\Documents\Visual Studio 2015\Projects\Stooge\WorldGenerator\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Jesse\Documents\Visual Studio 2015\Projects\Stooge\WorldGenerator\obj\Debug\WorldGenerator.csprojResolveAssemblyReference.cache
+C:\Users\Jesse\Documents\Visual Studio 2015\Projects\Stooge\WorldGenerator\obj\Debug\WorldGenerator.exe
+C:\Users\Jesse\Documents\Visual Studio 2015\Projects\Stooge\WorldGenerator\obj\Debug\WorldGenerator.pdb

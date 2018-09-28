@@ -1,0 +1,13 @@
+c:\Users\Jesse\documents\visual studio 2015\Projects\Stooge\StoogeServer\obj\Debug\StoogeServer.csprojResolveAssemblyReference.cache
+c:\Users\Jesse\documents\visual studio 2015\Projects\Stooge\StoogeServer\bin\Debug\StoogeServer.pdb
+c:\Users\Jesse\documents\visual studio 2015\Projects\Stooge\StoogeServer\bin\Debug\StoogeWorld.dll
+c:\Users\Jesse\documents\visual studio 2015\Projects\Stooge\StoogeServer\bin\Debug\StoogeWorld.pdb
+c:\Users\Jesse\documents\visual studio 2015\Projects\Stooge\StoogeServer\obj\Debug\StoogeServer.pdb
+c:\Users\Jesse\documents\visual studio 2015\Projects\Stooge\StoogeServer\bin\Debug\StoogeServer.exe.config
+c:\Users\Jesse\documents\visual studio 2015\Projects\Stooge\StoogeServer\bin\Debug\StoogeServer.exe
+c:\Users\Jesse\documents\visual studio 2015\Projects\Stooge\StoogeServer\obj\Debug\StoogeServer.exe
+c:\Users\Jesse\documents\visual studio 2015\Projects\Stooge\StoogeServer\bin\Debug\Newtonsoft.Json.dll
+c:\Users\Jesse\documents\visual studio 2015\Projects\Stooge\StoogeServer\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Jesse\Documents\Visual Studio 2015\Projects\Stooge\StoogeServer\bin\Debug\Microsoft.WindowsAzure.ServiceRuntime.dll
+C:\Users\Jesse\Documents\Visual Studio 2015\Projects\Stooge\StoogeServer\bin\Debug\WindowsAzureTelemetryEvents.dll
+C:\Users\Jesse\Documents\Visual Studio 2015\Projects\Stooge\StoogeServer\bin\Debug\WindowsAzureEventSource.dll
