@@ -1,0 +1,10 @@
+{
+  "Id": 1,
+  "Name": "Taliesen",
+  "Description": "I am testing the ability to write to a file!",
+  "Inventory": [],
+  "Equipped": [ ],
+  "CurrentRoom": {
+    "ID": 2
+  }
+}

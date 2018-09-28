@@ -1,0 +1,13 @@
+{
+  "Id": 2,
+  "Name": "Say",
+  "Description": "The ability to speak. If the first word corresponds to the name of a player in the same room as you it will set them as the target.",
+  "Examples": [ "say Hello!", "say Taliesen What is your name?" ],
+  "Command": "say <target> {message}",
+  "UserText": "You {speakaction} {message}.",
+  "TargetText": "{user} {speakaction}s {message} to you.",
+  "RoomText": "{user} {speakaction}s {message} to {target}.",
+  "AreaText": "",
+  "WorldText": ""
+
+}

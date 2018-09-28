@@ -1,0 +1,13 @@
+{
+  "Id": 1,
+  "Name": "Move",
+  "Description": "Move in a specific direction.",
+  "Examples": [ "move north", "move n" ],
+  "Command": "move {direction}",
+  "UserText": "You {moveaction} {direction}.",
+  "TargetText": "",
+  "RoomText": "{user} {moveaction}s {direction}.",
+  "AreaText": "",
+  "WorldText": ""
+
+}

@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoogeServer", "StoogeServer\StoogeServer.csproj", "{CCBEC7D9-90B4-4E4E-92BB-87BD3D9A816B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoogeWorld", "StoogeWorld\StoogeWorld.csproj", "{5C247804-0058-41D6-8151-18031AED76FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldGenerator", "WorldGenerator\WorldGenerator.csproj", "{E95D6D57-4F85-4D0B-AE5B-F53870CA12DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CCBEC7D9-90B4-4E4E-92BB-87BD3D9A816B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCBEC7D9-90B4-4E4E-92BB-87BD3D9A816B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCBEC7D9-90B4-4E4E-92BB-87BD3D9A816B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCBEC7D9-90B4-4E4E-92BB-87BD3D9A816B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C247804-0058-41D6-8151-18031AED76FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C247804-0058-41D6-8151-18031AED76FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C247804-0058-41D6-8151-18031AED76FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C247804-0058-41D6-8151-18031AED76FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E95D6D57-4F85-4D0B-AE5B-F53870CA12DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E95D6D57-4F85-4D0B-AE5B-F53870CA12DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E95D6D57-4F85-4D0B-AE5B-F53870CA12DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E95D6D57-4F85-4D0B-AE5B-F53870CA12DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
