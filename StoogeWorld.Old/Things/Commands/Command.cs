@@ -22,7 +22,7 @@ namespace StoogeWorld.Things.Commands
 
 	public abstract class Command : Thing, ICommand
 	{
-		public static string CommandDirectory = "../../../data/commands/";
+		public static string CommandDirectory = "../../data/commands/";
 
 		public Thing Target { get; set; }
 		public string UserText { get; set; }

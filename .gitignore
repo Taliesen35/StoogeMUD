@@ -21,3 +21,13 @@ $RECYCLE.BIN/
 # =========================
 # Operating System Files
 # =========================
+/.vs
+/packages/Newtonsoft.Json.11.0.2
+/Stooge/obj
+/StoogeServer/bin/Debug/netcoreapp2.1
+/StoogeServer/obj
+/StoogeWorld/bin/Debug/netcoreapp2.1
+/StoogeWorld/obj
+/StoogeWorld.Old/obj
+/WorldGenerator/bin/Debug/netcoreapp2.1
+/WorldGenerator/obj

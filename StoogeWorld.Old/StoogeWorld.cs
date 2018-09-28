@@ -24,20 +24,22 @@ namespace StoogeWorld
 			Commands = new List<ICommand>();
 		}
 		
-		public static void Load()
+		public bool Load()
 		{
 			Console.WriteLine("Loading the world...");
 
 			LoadAreas();
 			LoadPlayers();
 			LoadCommands();
+
+			return true;
 		}
 
 		private static void LoadPlayers()
 		{
 			Console.WriteLine("Begin loading of player files");
 
-			var d = new DirectoryInfo(Player.PlayerDirectory);
+			var d = new DirectoryInfo(@"../../data/players/");
 			var files = d.GetFiles("*.player");
 
 			foreach ( var file in files )
@@ -54,7 +56,7 @@ namespace StoogeWorld
 		{
 			Console.WriteLine("Begin loading of area files");
 
-			var d = new DirectoryInfo(Area.AreaDirectory);
+			var d = new DirectoryInfo(@"../../data/areas/");
 			var files = d.GetFiles("*.area");
 
 			foreach ( var file in files )
@@ -70,7 +72,7 @@ namespace StoogeWorld
 		private static void LoadCommands()
 		{
 			Console.WriteLine("Begin loading of commands");
-			var d = new DirectoryInfo(Command.CommandDirectory);
+			var d = new DirectoryInfo(@"../../data/commands/");
 			var files = d.GetFiles("*.comm");
 			
 			foreach ( var file in files )

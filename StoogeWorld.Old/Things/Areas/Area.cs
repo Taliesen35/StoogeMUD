@@ -9,7 +9,7 @@ namespace StoogeWorld.Things.Areas
 {
 	public class Area : Thing
 	{
-		public const string AreaDirectory = "../../../data/areas/";
+		private const string AreaDirectory = "../../data/areas/";
 
 		[JsonProperty(Order = 4)]
 		public Dictionary<int, Room> Rooms { get; set;	}
@@ -37,7 +37,7 @@ namespace StoogeWorld.Things.Areas
 		}
 		public override IThing Load(string name)
 		{
-			using (var r = new StreamReader(AreaDirectory + name) )
+			using ( var r = new StreamReader(AreaDirectory + name) )
 			{
 				var json = r.ReadToEnd();
 				var area = JsonConvert.DeserializeObject<Area>(json);

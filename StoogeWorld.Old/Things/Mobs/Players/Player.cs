@@ -14,25 +14,14 @@ namespace StoogeWorld.Things.Mobs.Players
 {
 	public class Player : Mobile
 	{
-		public const string PlayerDirectory = "../../../data/players/";
+		private const string PlayerDirectory = "../../data/players/";
 
 		public PlayerState State { get; set; }
-
-		byte[] bytes = new byte[256];
-		private StreamReader sr;
-		private StreamWriter sw;
-
+		public Socket Socket { get; set; }
 
 		public Player()
 		{
-
-		}
-
-		public Player(Stream s)
-		{
 			State = PlayerState.Connected;
-			sr = new StreamReader(s);
-			sw = new StreamWriter(s);
 		}
 
 		public Player(string name)
@@ -65,10 +54,9 @@ namespace StoogeWorld.Things.Mobs.Players
 			}
 		}
 
-		public void Read()
 		public override void Send(string message)
 		{
-			sw.WriteLine(message);
+			Socket.Send(Encoding.ASCII.GetBytes(message));
 		}
 
 	}

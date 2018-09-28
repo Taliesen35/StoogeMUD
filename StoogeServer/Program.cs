@@ -1,5 +1,4 @@
 ﻿using System.Net;
-using Microsoft.WindowsAzure.ServiceRuntime;
 
 namespace StoogeServer
 {
